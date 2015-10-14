@@ -152,5 +152,5 @@ There are a number of other methods to use with an array. Google is your friend!
 ## Sources and Further Reading
 * http://eloquentjavascript.net/04_data.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
-* Javascript & Jquery - Jon Duckett
+* Javascript & jQuery - Jon Duckett
 * A Smarter Way to Learn Javascript - Mark Myers
