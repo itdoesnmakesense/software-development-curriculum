@@ -10,7 +10,7 @@ The other method is known as an __array constructor__. </br>
 var fruits = new Array("Apple", "Banana", "Orange");
 ```
 </br>
-Remember, _the array literal is the most preferred over the array constructor._
+Remember, _the array literal is most preferred over the array constructor._
 </br>
 
 Consider using an array whenever you are working with a __list__ or a set of values that are __related__ to each other. </br>
