@@ -1,10 +1,18 @@
 
 ## Array
 An array is a special variable that stores a list of __values__. </br>
-It is written as a list of values between square brackets, separated by commas.</br>
+You can create an array using two different techniques. The most preferred method is known as an __array literal__. It is written as a list of values between square brackets, separated by commas </br>
 ```
-var fruits = ["Apple", "Banana"]
+var fruits = ["Apple", "Banana", "Orange"];
 ```
+The other method is known as an __array constructor__. </br>
+```
+var fruits = new Array("Apple", "Banana", "Orange");
+```
+</br>
+Remember, _the array literal is the most preferred over the array constructor._
+</br>
+
 Consider using an array whenever you are working with a __list__ or a set of values that are __related__ to each other. </br>
 Arrays are especially helpful when you do not know _how many items a list will contain_ because, when you create the array, _you do not need to specify how many values it will hold._</br>
 If you do not know how many items a list will contain, rather than creating enough variables for a long list (when you might only use a small percentage of them), using an array is considered a better solution. </br>
