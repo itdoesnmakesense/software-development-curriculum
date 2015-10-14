@@ -1,7 +1,7 @@
 
 ## Array
 An array is a special variable that stores a list of __values__. </br>
-You can create an array using two different techniques. The most preferred method is known as an __array literal__. It is written as a list of values between square brackets, separated by commas </br>
+You can create an array using two different techniques. The most preferred method is known as an __array literal__. It is written as a list of values between square brackets, separated by commas. </br>
 ```
 var fruits = ["Apple", "Banana", "Orange"];
 ```
@@ -114,12 +114,18 @@ fruits.splice(1, 2, “lemons”, “grapefruit”);
 The first number, 1, is the index position where you want to start adding. (Remember an array index starts at 0!)</br>
 The second number, 2, is the number of elements you want to remove.</br>
  The resulting array will be </br>
-```[“apples”, “grapes”, “lemons”, “grapefruit”]```
+```
+[“apples”, “lemons”, “grapefruit”, “grapes”];
+```
 </br>
  To add elements without removing any: </br>
-```fruits.splice(1, 0, “lemons”, “grapefruit”);```</br>
+```
+fruits.splice(1, 0, “lemons”, “grapefruit”);
+```</br>
  To only remove elements:</br>
-```fruits.splice(1, 2);```
+```
+fruits.splice(1, 2);
+```
 
 
 ### Copy an Array
